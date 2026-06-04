@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "title": "Pločica Pola – Ćevapi al Mercato Centrale di Pola",
+    "description": "Tra i migliori 3 street food al mondo secondo Jan Hartwig (3 stelle Michelin). Due sedi a Pola — il Mercato in Narodni trg e Pločica u Podroomu. Ordina via WhatsApp: +385 95 362 7218."
+  },
+  "nav": {
+    "menu": "Menù",
+    "order": "Ordina",
+    "skipToContent": "Vai al contenuto",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu"
+  },
+  "hero": {
+    "wordmark": "PLOČICA",
+    "tagline": "Due griglie. Una Pločica.",
+    "ctaMenu": "Menù",
+    "ctaOrder": "Ordina",
+    "stamp": "Due sedi · Pola · Ordini su WhatsApp"
+  },
+  "product": {
+    "kicker": "Il prodotto",
+    "headline": "90g",
+    "line1": "RICETTA DALLA BOSNIA",
+    "line2": "KAJMAK DI ZLATIBOR",
+    "line3": "AJVAR MACEDONE",
+    "bodyA": "Macinata in casa. Speziata in casa. Cotta in casa.",
+    "bodyB": "Un pezzo. Novanta grammi. Nessuna scorciatoia."
+  },
+  "provenance": {
+    "kicker": "La mappa della griglia",
+    "title": "Da dove viene il sapore",
+    "cards": [
+      {
+        "number": "01",
+        "place": "BOSNIA",
+        "body": "Una ricetta che è arrivata dalla Bosnia a Pola. Manzo e vitello, miscelati secondo regola."
+      },
+      {
+        "number": "02",
+        "place": "ZLATIBOR",
+        "body": "Kajmak di montagna. Solo da qui."
+      },
+      {
+        "number": "03",
+        "place": "MACEDONIA",
+        "body": "Ajvar che richiede tempo."
+      },
+      {
+        "number": "04",
+        "place": "POLA",
+        "body": "Mercato e Podroom. Due griglie. Una Pločica."
+      }
+    ]
+  },
+  "place": {
+    "kicker": "Il luogo",
+    "yearStamp": "Dal 2023",
+    "quote": "Perché cambiare ciò che ti ha fatto?",
+    "attribution": "Mersim",
+    "body": "Siamo entrati nel mercato più antico di Pola e abbiamo acceso la griglia. La carne riposa 65 ore, viene macinata e speziata in casa, cotta sulla griglia rovente. Ora arde anche una seconda griglia — nel vecchio Podroom, uno spazio che ogni polese ricorda. Due griglie. Una Pločica.",
+    "marketLabel": "MERCATO · NARODNI TRG 9 · DAL 2023",
+    "podroomLabel": "PODROOM · BUDICINOVA 16 · NUOVO"
+  },
+  "validation": {
+    "kicker": "Riconoscimento",
+    "hartwigQuote": "Uno dei migliori 3 street food della mia vita.",
+    "hartwigAttribution": "Jan Hartwig",
+    "hartwigAttributionDetail": "3 stelle Michelin · Restaurant Jan, Monaco",
+    "hartwigAttributionContext": "World's 50 Best Explores — riprese in Istria",
+    "hartwigNote": "Arrivato per caso durante le riprese di World's 50 Best Explores in Istria. È tornato per riassaggiare.",
+    "plavaLabel": "★ PLAVA KAMENICA",
+    "plavaQuote": "Školski točna izvedba. Čisto meso. Bez prečaca.",
+    "plavaIntro": "Plava Kamenica è la principale guida gastronomica croata.",
+    "plavaSub": "Tra i migliori ćevapi in Croazia.",
+    "mediaTitle": "Sulla stampa",
+    "mediaGlasIstre": "Glas Istre",
+    "mediaGlasIstreNote": "Articolo profilo",
+    "mediaRibafish": "Ribafish",
+    "mediaRibafishNote": "Articolo profilo",
+    "tripadvisor": "4.6 Tripadvisor · 34 recensioni",
+    "wolt": "Wolt",
+    "glovo": "Glovo",
+    "instagram": "@plocicacevapi"
+  },
+  "gallery": {
+    "kicker": "Galleria",
+    "title": "Griglia. Luogo. Persone.",
+    "subtitle": "Pločica · documentario, mai posato."
+  },
+  "blog": {
+    "kicker": "Dalla cucina",
+    "title": "Dalla cucina",
+    "subtitle": "Cosa succede qui — Hartwig, Podroom, la ricetta.",
+    "readMore": "Leggi",
+    "backToBlog": "Torna al blog",
+    "backHome": "Torna alla home",
+    "minRead": "min di lettura",
+    "publishedOn": "Pubblicato"
+  },
+  "menu": {
+    "kicker": "Menù",
+    "title": "Menù",
+    "currency": "€",
+    "ponijetiCta": "Ordina da asporto",
+    "ponijetiHint": "WhatsApp · Pronto al tuo arrivo",
+    "intro": "Tutto il menù dalla griglia. Ordina su WhatsApp — pronto al tuo arrivo.",
+    "note": "Prezzi in euro. La Budweiser ceca è con noi dall'inizio — al Podroom anche alla spina. Insieme: vini istriani (Geržinić), rakija locali (Martesi) e un bar completo."
+  },
+  "order": {
+    "kicker": "Ordina e sedi",
+    "title": "Ordina",
+    "whatsappCta": "Ordina da asporto",
+    "whatsappHint": "WhatsApp · Pronto al tuo arrivo",
+    "deliveryTitle": "Consegna",
+    "phoneNote": "Prenotazioni e informazioni:",
+    "phoneMain": "+385 95 362 7218",
+    "phoneMainNote": "Mercato · WhatsApp e prenotazioni",
+    "location1Label": "Sede 1 — Mercato",
+    "location1Tagline": "L'originale. Dentro il mercato.",
+    "location1Address1": "Narodni trg 9",
+    "location1Address2": "Mercato Centrale, Pola",
+    "location1Hours": "Ogni giorno 11:00 – 23:00",
+    "location1PhoneLabel": "Linea ordini diretta",
+    "location1Phone": "+385 95 362 7218",
+    "location2Label": "Sede 2 — Pločica u Podroomu",
+    "location2Tagline": "La seconda griglia. Nel leggendario Podroom.",
+    "location2Address1": "Budicinova 16",
+    "location2Address2": "(via Pina Budicina), Pola",
+    "location2Hours": "Ogni giorno 08:00 – 22:00",
+    "location2HoursNote": "Fino alle 23:00 in estate",
+    "location2PhoneLabel": "Linea ordini diretta",
+    "location2Phone": "+385 95 347 3593",
+    "showMap": "Mostra sulla mappa"
+  },
+  "contact": {
+    "kicker": "Contatti",
+    "title": "Pločica",
+    "address1Heading": "Mercato",
+    "address1Line1": "Narodni trg 9",
+    "address1Line2": "52100 Pola, Croazia",
+    "address2Heading": "Pločica u Podroomu",
+    "address2Line1": "Budicinova 16 (Pina Budicina)",
+    "address2Line2": "52100 Pola, Croazia",
+    "email": "plocica.cevapi@gmail.com",
+    "phone": "+385 95 362 7218",
+    "phoneNote": "WhatsApp e prenotazioni",
+    "instagram": "@plocicacevapi",
+    "facebook": "/Pločica",
+    "instagramHandle": "plocicacevapi",
+    "map1Label": "Mercato — Originale",
+    "map2Label": "Pločica u Podroomu"
+  },
+  "stickyFooter": {
+    "whatsapp": "WhatsApp",
+    "call": "Chiama",
+    "locations": "Sedi"
+  },
+  "notFound": {
+    "kicker": "404",
+    "title": "Questa pagina non è grigliata.",
+    "body": "Questo indirizzo non esiste. Forse è finito sulla piastra.",
+    "backHome": "Torna alla home",
+    "menuLink": "Vai al menù"
+  },
+  "footer": {
+    "stamp": "PLOČICA · NARODNI TRG 9 · BUDICINOVA 16 · POLA",
+    "copyright": "© 2026 Pločica obrt",
+    "privacy": "Privacy",
+    "imprint": "Note legali"
+  },
+  "lang": {
+    "hr": "HR",
+    "en": "EN",
+    "it": "IT",
+    "switchLabel": "Cambia lingua"
+  }
+}

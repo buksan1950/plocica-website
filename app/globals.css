@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------------------
+   Pločica brand tokens — derived from the brand book PDF (public/brand/
+   plocica-brand-book.pdf). The four palette swatches on page 1 are:
+
+     orange  · vivid flame
+     green   · deep forest
+     tan     · warm dusty brown
+     cream   · warm peach
+
+   These hex values are read from the PDF — close to brand-true. The
+   official designer's exact CMYK/sRGB values can replace them later
+   without code changes elsewhere.
+   --------------------------------------------------------------------------- */
+
+:root {
+  /* Primary brand colors (locked) */
+  --orange: #F18B25;         /* flame — primary accent, CTAs, highlights */
+  --green: #234739;          /* deep forest green — primary surface */
+  --tan: #B68B6A;            /* warm dusty brown — secondary accent */
+  --cream: #F9D6A2;          /* warm peach cream — section backgrounds */
+
+  /* Working derivatives — per client (2026-05-15): only ONE dark green
+     across the site, so the two darker shades alias to --green. */
+  --green-dark: var(--green);
+  --green-deep: var(--green);
+  --offwhite: #F5F0E8;       /* primary text on dark surfaces */
+  --offwhite-muted: #B8AC9C; /* muted secondary text */
+  --black: #0A0A0A;          /* high-contrast dark surfaces */
+
+  /* Backwards-compat alias — Tailwind references `bg-ember`/`text-ember`
+     throughout the components. Map it to the brand orange. */
+  --ember: var(--orange);
+}
+
+/* ---------------------------------------------------------------------------
+   Palmer Lake Print — the brand's display face (headlines).
+   Self-hosted webfont built from the licensed brand assets: the abeceda.pdf
+   alphabet traced into outlines, with H/W/Q grafted from the cjenik PDF's
+   embedded Palmer Lake subset (abeceda.pdf omits them). Croatian uppercase +
+   diacritics. The font maps lowercase codepoints to the same forms, so
+   headlines render in Palmer Lake's hand-cut caps regardless of source casing.
+   --------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: "Palmer Lake";
+  /* versioned filename — bump on every font rebuild to bust browser cache */
+  src: url("/fonts/palmer-lake-v4.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Palmer Lake covers the full Croatian alphabet plus synthesised digits,
+     Y and H/W/Q. DM Sans is the fallback for any stray glyph it lacks —
+     warmer than dropping to a system face. */
+  --font-display: "Palmer Lake", var(--font-dmsans), system-ui, sans-serif;
+}
+
+html {
+  background-color: var(--green-deep);
+  color: var(--offwhite);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-dmsans), system-ui, sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+::selection {
+  background: var(--orange);
+  color: var(--green-deep);
+}
+
+@layer utilities {
+  /* Stamp — labels, meta, kickers. DM Sans 500, uppercase, tight tracking. */
+  .stamp {
+    font-family: var(--font-dmsans), system-ui, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.75rem;
+    line-height: 1;
+  }
+
+  /* Hero gradient fallback — used only until a real documentary
+     grill photograph is dropped in. Spec §1.6: every gradient is
+     flagged for replacement. */
+  .hero-bg {
+    background:
+      radial-gradient(ellipse at 30% 75%, rgba(241, 139, 37, 0.45) 0%, transparent 55%),
+      radial-gradient(ellipse at 80% 20%, rgba(35, 71, 57, 0.6) 0%, transparent 50%),
+      var(--green-deep);
+  }
+
+  /* Char-mark grid — SECONDARY pattern per v1.1 §1.4. */
+  .char-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23F5F0E8' stroke-width='1' opacity='0.06'%3E%3Cline x1='0' y1='60' x2='60' y2='0'/%3E%3Cline x1='-10' y1='60' x2='50' y2='0'/%3E%3Cline x1='10' y1='60' x2='70' y2='0'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: 60px 60px;
+  }
+
+  /* Utensil scatter — PRIMARY brand surface texture per v1.1 §1.4.
+     Faithful recreation of the brand pattern (fork / knife / spatula +
+     flame marks) from the brand book. Source: /public/patterns/utensils.svg.
+     Opacity is baked low here so it sits behind text; pass an `opacity-*`
+     utility on the element only if a section needs it even fainter. */
+  .utensil-scatter {
+    background-image: url("/patterns/utensils.svg");
+    background-size: 260px 260px;
+    opacity: 0.11;
+  }
+
+  /* Slightly stronger variant for large empty surfaces (e.g. menu). */
+  .utensil-scatter-bold {
+    background-image: url("/patterns/utensils.svg");
+    background-size: 230px 230px;
+    opacity: 0.14;
+  }
+}

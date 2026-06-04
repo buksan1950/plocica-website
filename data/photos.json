@@ -1,0 +1,75 @@
+{
+  "_": "Semantic role → photo filename mapping. To change a photo, just point the role at a different filename in /public/images/photos/. No code changes needed.",
+  "hero": "/images/photos/photo-14.jpeg",
+  "heroAlt": {
+    "hr": "Ćevapi na ploči — vatra, char, lepinja.",
+    "en": "Ćevapi on the grill — fire, char, lepinja.",
+    "it": "Ćevapi sulla piastra — fuoco, brace, lepinja."
+  },
+  "product": "/images/photos/photo-15.jpeg",
+  "productAlt": {
+    "hr": "Konobar nosi dva tanjura ćevapa s lepinjom, kajmakom i ajvarom.",
+    "en": "Server carrying two plates of ćevapi with lepinja, kajmak and ajvar.",
+    "it": "Cameriere con due piatti di ćevapi con lepinja, kajmak e ajvar."
+  },
+  "wallSign": "/images/photos/photo-17.jpeg",
+  "wallSignAlt": {
+    "hr": "PLOČICA — natpis na zidu Podrooma.",
+    "en": "PLOČICA — wall sign at the Podroom location.",
+    "it": "PLOČICA — insegna a muro nella sede Podroom."
+  },
+  "logoOnBrick": "/images/photos/photo-18.jpeg",
+  "logoOnBrickAlt": {
+    "hr": "Logo Pločice osvijetljen na kamenom zidu.",
+    "en": "Pločica logo backlit on a stone wall.",
+    "it": "Logo Pločica retroilluminato su muro di pietra."
+  },
+  "podroomExterior": "/images/photos/photo-19.jpeg",
+  "podroomExteriorAlt": {
+    "hr": "Pločica u Podroomu — Budicinova 16, Pula.",
+    "en": "Pločica u Podroomu — Budicinova 16, Pula.",
+    "it": "Pločica u Podroomu — Budicinova 16, Pola."
+  },
+  "gallery": [
+    {
+      "src": "/images/photos/photo-12.jpeg",
+      "alt": { "hr": "Lepinja, kajmak i ajvar — bliski plan.", "en": "Lepinja, kajmak and ajvar — close-up.", "it": "Lepinja, kajmak e ajvar — primo piano." },
+      "aspect": "portrait"
+    },
+    {
+      "src": "/images/photos/photo-18.jpeg",
+      "alt": { "hr": "Logo Pločice na kamenom zidu.", "en": "Pločica logo on a stone wall.", "it": "Logo Pločica su muro di pietra." },
+      "aspect": "portrait"
+    },
+    {
+      "src": "/images/photos/photo-19.jpeg",
+      "alt": { "hr": "Pločica u Podroomu — vanjski prostor.", "en": "Pločica u Podroomu — exterior.", "it": "Pločica u Podroomu — esterno." },
+      "aspect": "landscape"
+    },
+    {
+      "src": "/images/photos/photo-03.jpeg",
+      "alt": { "hr": "Unutrašnjost Podrooma — topli detalj.", "en": "Podroom interior — warm detail.", "it": "Interno Podroom — dettaglio caldo." },
+      "aspect": "landscape"
+    },
+    {
+      "src": "/images/photos/photo-01.jpeg",
+      "alt": { "hr": "Kameni svodovi Podrooma.", "en": "Stone arches at Podroom.", "it": "Archi di pietra al Podroom." },
+      "aspect": "landscape"
+    },
+    {
+      "src": "/images/photos/photo-08.jpeg",
+      "alt": { "hr": "Obiteljska atmosfera u Podroomu.", "en": "Family at the Podroom courtyard.", "it": "Famiglia nel cortile del Podroom." },
+      "aspect": "landscape"
+    },
+    {
+      "src": "/images/photos/photo-05.jpeg",
+      "alt": { "hr": "Dvorište Podrooma.", "en": "Podroom courtyard.", "it": "Cortile del Podroom." },
+      "aspect": "landscape"
+    },
+    {
+      "src": "/images/photos/photo-15.jpeg",
+      "alt": { "hr": "Konobar nosi tanjure.", "en": "Server carrying plates.", "it": "Cameriere con piatti." },
+      "aspect": "portrait"
+    }
+  ]
+}

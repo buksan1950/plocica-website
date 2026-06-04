@@ -1,0 +1,418 @@
+{
+  "currency": "€",
+  "source": "Extracted from public/brand/menu-food.pdf (2026-05-12). Confirmed prices in EUR.",
+  "categories": [
+    {
+      "id": "cevapi",
+      "name": {
+        "hr": "Ćevapi",
+        "en": "Ćevapi",
+        "it": "Ćevapi"
+      }
+    },
+    {
+      "id": "burgers",
+      "name": {
+        "hr": "Burgeri i pljeskavice",
+        "en": "Burgers",
+        "it": "Burger"
+      }
+    },
+    {
+      "id": "meat",
+      "name": {
+        "hr": "Meso s roštilja",
+        "en": "From the grill",
+        "it": "Dalla griglia"
+      }
+    },
+    {
+      "id": "veggie",
+      "name": {
+        "hr": "Veggie",
+        "en": "Veggie",
+        "it": "Veggie"
+      }
+    },
+    {
+      "id": "salate",
+      "name": {
+        "hr": "Salate",
+        "en": "Salads",
+        "it": "Insalate"
+      }
+    },
+    {
+      "id": "dodatci",
+      "name": {
+        "hr": "Dodatci",
+        "en": "Extras",
+        "it": "Extra"
+      }
+    },
+    {
+      "id": "deserti",
+      "name": {
+        "hr": "Deserti",
+        "en": "Desserts",
+        "it": "Dolci"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "sindikalna",
+      "category": "cevapi",
+      "name": {
+        "hr": "Sindikalna porcija",
+        "en": "Union portion",
+        "it": "Porzione sindacale"
+      },
+      "description": {
+        "hr": "Lepinja, 3 pločice ćevapa, luk.",
+        "en": "Lepinja, 3 ćevapi tiles, onion.",
+        "it": "Lepinja, 3 tegole di ćevapi, cipolla."
+      },
+      "price": 6.5
+    },
+    {
+      "id": "klasicna",
+      "category": "cevapi",
+      "name": {
+        "hr": "Klasična porcija",
+        "en": "Classic portion",
+        "it": "Porzione classica"
+      },
+      "description": {
+        "hr": "Lepinja, 4 pločice ćevapa, luk.",
+        "en": "Lepinja, 4 ćevapi tiles, onion.",
+        "it": "Lepinja, 4 tegole di ćevapi, cipolla."
+      },
+      "price": 8.0
+    },
+    {
+      "id": "zdrava",
+      "category": "cevapi",
+      "name": {
+        "hr": "Zdrava porcija",
+        "en": "Healthy portion",
+        "it": "Porzione salutare"
+      },
+      "description": {
+        "hr": "Sezonska salata, luk, kupus, mrkva, 3 pločice ćevapa.",
+        "en": "Seasonal salad, onion, cabbage, carrot, 3 ćevapi tiles.",
+        "it": "Insalata di stagione, cipolla, cavolo, carota, 3 tegole di ćevapi."
+      },
+      "price": 9.0
+    },
+    {
+      "id": "pulska",
+      "category": "cevapi",
+      "name": {
+        "hr": "Pulska porcija",
+        "en": "Pula portion",
+        "it": "Porzione di Pola"
+      },
+      "description": {
+        "hr": "Lepinja, 6 pločica ćevapa, luk.",
+        "en": "Lepinja, 6 ćevapi tiles, onion.",
+        "it": "Lepinja, 6 tegole di ćevapi, cipolla."
+      },
+      "price": 9.5
+    },
+    {
+      "id": "cevap-sa-sirom",
+      "category": "cevapi",
+      "name": {
+        "hr": "Ćevap sa sirom",
+        "en": "Cheese-stuffed ćevap",
+        "it": "Ćevap ripieno di formaggio"
+      },
+      "description": {
+        "hr": "200g ćevapčića od junetine i teletine punjene sirom, lepinja i luk.",
+        "en": "200g beef and veal ćevapi stuffed with cheese, lepinja and onion.",
+        "it": "200g di ćevapi di manzo e vitello ripieni di formaggio, lepinja e cipolla."
+      },
+      "price": 12.0
+    },
+    {
+      "id": "cevap-s-juga",
+      "category": "cevapi",
+      "name": {
+        "hr": "Ćevap s juga",
+        "en": "Southern ćevap",
+        "it": "Ćevap del sud"
+      },
+      "description": {
+        "hr": "Pikantni ćevapčići u umaku od pečene crvene paprike, češnjaka, kajmaka i milerama, sa lepinjom i lukom.",
+        "en": "Spicy ćevapčići in a sauce of roasted red pepper, garlic, kajmak and miler cream, with lepinja and onion.",
+        "it": "Ćevapčići piccanti in salsa di peperone rosso arrosto, aglio, kajmak e crema, con lepinja e cipolla."
+      },
+      "price": 15.0
+    },
+    {
+      "id": "gurmanska-pljeskavica",
+      "category": "burgers",
+      "name": {
+        "hr": "Gurmanska pljeskavica",
+        "en": "Gourmet pljeskavica",
+        "it": "Pljeskavica gourmet"
+      },
+      "description": {
+        "hr": "200g junećeg i telećeg mesa sa lukom, sirom i pikantnom ljutom paprikom u lepinji.",
+        "en": "200g of beef and veal with onion, cheese and spicy hot pepper in lepinja.",
+        "it": "200g di manzo e vitello con cipolla, formaggio e peperone piccante in lepinja."
+      },
+      "price": 13.0
+    },
+    {
+      "id": "cheeseburger",
+      "category": "burgers",
+      "name": {
+        "hr": "Cheeseburger",
+        "en": "Cheeseburger",
+        "it": "Cheeseburger"
+      },
+      "description": {
+        "hr": "Brioš pecivo, 170g domaćeg odleženog junećeg mesa, grilani topljeni sir, zelena salata, krastavci, luk, domaći umak.",
+        "en": "Brioche bun, 170g of aged local beef, melted cheese, lettuce, pickles, onion, house sauce.",
+        "it": "Pane brioche, 170g di manzo locale stagionato, formaggio fuso, lattuga, sottaceti, cipolla, salsa della casa."
+      },
+      "price": 9.0
+    },
+    {
+      "id": "double-cheeseburger",
+      "category": "burgers",
+      "name": {
+        "hr": "Double Cheeseburger",
+        "en": "Double Cheeseburger",
+        "it": "Double Cheeseburger"
+      },
+      "description": {
+        "hr": "Sve gore navedeno, dva komada mesa.",
+        "en": "Everything above, with two patties.",
+        "it": "Tutto quanto sopra, con doppia carne."
+      },
+      "price": 13.0
+    },
+    {
+      "id": "cheeseburger-u-lepinji",
+      "category": "burgers",
+      "name": {
+        "hr": "Cheeseburger u lepinji",
+        "en": "Cheeseburger in lepinja",
+        "it": "Cheeseburger in lepinja"
+      },
+      "description": {
+        "hr": "170g odleženog junećeg mesa u lepinji, sa sirom i svim dodacima.",
+        "en": "170g aged beef in lepinja flatbread, with cheese and full toppings.",
+        "it": "170g di manzo stagionato in lepinja, con formaggio e tutti i contorni."
+      },
+      "price": 10.0
+    },
+    {
+      "id": "double-cheeseburger-u-lepinji",
+      "category": "burgers",
+      "name": {
+        "hr": "Double cheeseburger u lepinji",
+        "en": "Double cheeseburger in lepinja",
+        "it": "Double cheeseburger in lepinja"
+      },
+      "description": null,
+      "price": 13.0
+    },
+    {
+      "id": "telece-krpice",
+      "category": "meat",
+      "name": {
+        "hr": "Teleće krpice",
+        "en": "Grilled veal",
+        "it": "Vitello alla griglia"
+      },
+      "description": {
+        "hr": "Lepinja, teletina, luk.",
+        "en": "Lepinja, grilled veal, onion.",
+        "it": "Lepinja, vitello alla griglia, cipolla."
+      },
+      "price": 11.0
+    },
+    {
+      "id": "teletina-u-salati",
+      "category": "meat",
+      "name": {
+        "hr": "Teletina u salati",
+        "en": "Grilled veal in salad",
+        "it": "Vitello in insalata"
+      },
+      "description": {
+        "hr": "Marinirana teletina s roštilja u sezonskoj salati.",
+        "en": "Marinated grilled veal on a bed of seasonal salad.",
+        "it": "Vitello marinato alla griglia su insalata di stagione."
+      },
+      "price": 13.0
+    },
+    {
+      "id": "veggie-burger",
+      "category": "veggie",
+      "name": {
+        "hr": "Veggie burger",
+        "en": "Veggie burger",
+        "it": "Veggie burger"
+      },
+      "description": {
+        "hr": "Brioš pecivo, pljeskavica od soje, Pločica umak, luk, krastavci, zelena salata.",
+        "en": "Brioche bun, soy patty, Pločica sauce, onion, pickles, lettuce.",
+        "it": "Pane brioche, polpetta di soia, salsa Pločica, cipolla, sottaceti, lattuga."
+      },
+      "price": 10.0
+    },
+    {
+      "id": "vegetarijanski-tanjur",
+      "category": "veggie",
+      "name": {
+        "hr": "Vegetarijanski tanjur",
+        "en": "Veggie plate",
+        "it": "Piatto vegetariano"
+      },
+      "description": {
+        "hr": "Sezonska salata, svježi kupus, ljubičasti luk, rajčica, krastavac, lepinja, kajmak i ajvar.",
+        "en": "Seasonal salad, fresh cabbage, red onion, tomato, cucumber, lepinja, kajmak and ajvar.",
+        "it": "Insalata di stagione, cavolo fresco, cipolla rossa, pomodoro, cetriolo, lepinja, kajmak e ajvar."
+      },
+      "price": 10.0
+    },
+    {
+      "id": "sezonska-salata",
+      "category": "salate",
+      "name": {
+        "hr": "Sezonska salata",
+        "en": "Seasonal salad",
+        "it": "Insalata di stagione"
+      },
+      "description": {
+        "hr": "Sezonska salata, luk, kupus, mrkva.",
+        "en": "Seasonal salad, onion, cabbage, carrot.",
+        "it": "Insalata di stagione, cipolla, cavolo, carota."
+      },
+      "price": 5.0
+    },
+    {
+      "id": "sopska-salata",
+      "category": "salate",
+      "name": {
+        "hr": "Šopska salata",
+        "en": "Šopska salad",
+        "it": "Insalata Šopska"
+      },
+      "description": {
+        "hr": "Crvena paprika, svježi krastavac, rajčica, luk, sir grabancijaš.",
+        "en": "Red pepper, fresh cucumber, tomato, onion, grabancijaš cheese.",
+        "it": "Peperone rosso, cetriolo fresco, pomodoro, cipolla, formaggio grabancijaš."
+      },
+      "price": 7.0
+    },
+    {
+      "id": "ajvar",
+      "category": "dodatci",
+      "name": {
+        "hr": "Ajvar",
+        "en": "Ajvar",
+        "it": "Ajvar"
+      },
+      "description": null,
+      "price": 1.8
+    },
+    {
+      "id": "ljuti-ajvar",
+      "category": "dodatci",
+      "name": {
+        "hr": "Ljuti ajvar",
+        "en": "Spicy ajvar",
+        "it": "Ajvar piccante"
+      },
+      "description": null,
+      "price": 1.8
+    },
+    {
+      "id": "kajmak",
+      "category": "dodatci",
+      "name": {
+        "hr": "Kajmak",
+        "en": "Kajmak (cream cheese)",
+        "it": "Kajmak"
+      },
+      "description": null,
+      "price": 2.5
+    },
+    {
+      "id": "lepinja",
+      "category": "dodatci",
+      "name": {
+        "hr": "Lepinja",
+        "en": "Lepinja (flatbread)",
+        "it": "Lepinja"
+      },
+      "description": null,
+      "price": 2.5
+    },
+    {
+      "id": "dodatna-plocica",
+      "category": "dodatci",
+      "name": {
+        "hr": "Dodatna pločica",
+        "en": "Extra ćevap tile",
+        "it": "Tegola extra di ćevap"
+      },
+      "description": null,
+      "price": 2.0
+    },
+    {
+      "id": "burger-umak",
+      "category": "dodatci",
+      "name": {
+        "hr": "Burger umak",
+        "en": "Burger sauce",
+        "it": "Salsa per burger"
+      },
+      "description": null,
+      "price": 1.5
+    },
+    {
+      "id": "majoneza-ketchup-senf",
+      "category": "dodatci",
+      "name": {
+        "hr": "Majoneza / Ketchup / Senf",
+        "en": "Mayonnaise / Ketchup / Mustard",
+        "it": "Maionese / Ketchup / Senape"
+      },
+      "description": null,
+      "price": 1.0
+    },
+    {
+      "id": "palacinke",
+      "category": "deserti",
+      "name": {
+        "hr": "Palačinke",
+        "en": "Pancakes",
+        "it": "Crêpes"
+      },
+      "description": {
+        "hr": "S nutellom ili marmeladom.",
+        "en": "With nutella or marmalade.",
+        "it": "Con nutella o marmellata."
+      },
+      "price": 7.0
+    },
+    {
+      "id": "sladoled",
+      "category": "deserti",
+      "name": {
+        "hr": "Aroma sladoled",
+        "en": "Aroma ice cream",
+        "it": "Gelato Aroma"
+      },
+      "description": null,
+      "price": 6.0
+    }
+  ]
+}

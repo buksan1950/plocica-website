@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "title": "Pločica Pula – Ćevapi u srcu pulske tržnice",
+    "description": "Sami meljemo, sami začinjavamo, sami pečemo. Dvije lokacije u Puli — Tržnica na Narodnom trgu i Pločica u Podroomu. Naruči preko WhatsAppa: +385 95 362 7218."
+  },
+  "nav": {
+    "menu": "Jelovnik",
+    "order": "Naruči",
+    "skipToContent": "Preskoči na sadržaj",
+    "openMenu": "Otvori izbornik",
+    "closeMenu": "Zatvori izbornik"
+  },
+  "hero": {
+    "wordmark": "PLOČICA",
+    "tagline": "Dva roštilja. Jedna pločica.",
+    "ctaMenu": "Jelovnik",
+    "ctaOrder": "Naruči",
+    "stamp": "Dvije lokacije · Pula · WhatsApp narudžbe"
+  },
+  "product": {
+    "kicker": "Proizvod",
+    "headline": "90g",
+    "line1": "RECEPT IZ BOSNE",
+    "line2": "ZLATIBOR KAJMAK",
+    "line3": "MAKEDONSKI AJVAR",
+    "bodyA": "Sami meljemo. Sami začinjavamo. Sami pečemo.",
+    "bodyB": "Jedan komad. Devedeset grama. Bez kompromisa."
+  },
+  "provenance": {
+    "kicker": "Karta roštilja",
+    "title": "Odakle dolazi okus",
+    "cards": [
+      {
+        "number": "01",
+        "place": "BOSNA",
+        "body": "Recept koji je put pronašao iz Bosne do Pule. Mješavina junećeg i telećeg, miješana po pravilu."
+      },
+      {
+        "number": "02",
+        "place": "ZLATIBOR",
+        "body": "Kajmak s planine. Jedino odavde."
+      },
+      {
+        "number": "03",
+        "place": "MAKEDONIJA",
+        "body": "Ajvar koji se ne pravi brzo."
+      },
+      {
+        "number": "04",
+        "place": "PULA",
+        "body": "Tržnica i Podroom. Dva roštilja. Jedna pločica."
+      }
+    ]
+  },
+  "place": {
+    "kicker": "Mjesto",
+    "yearStamp": "Od 2023.",
+    "quote": "Zašto mijenjati ono što te stvorilo?",
+    "attribution": "Mersim",
+    "body": "Ušli smo u najstariju tržnicu u Puli i upalili roštilj. Meso odležava 65 sati, melje se i začinja u kući, peče na vrućem roštilju. Sada gori i drugi roštilj — u Podroomu, prostoru koji puležani pamte. Dva roštilja. Jedna pločica.",
+    "marketLabel": "TRŽNICA · NARODNI TRG 9 · OD 2023.",
+    "podroomLabel": "PODROOM · BUDICINOVA 16 · NOVA"
+  },
+  "validation": {
+    "kicker": "Priznanje",
+    "hartwigQuote": "One of the top 3 street foods I've ever eaten.",
+    "hartwigAttribution": "Jan Hartwig",
+    "hartwigAttributionDetail": "3× Michelin Stars · Restaurant Jan, München",
+    "hartwigAttributionContext": "World's 50 Best Explores — snimanje u Istri",
+    "hartwigNote": "Došao usput tokom snimanja World's 50 Best Explores u Istri. Vratio se po još.",
+    "plavaLabel": "★ PLAVA KAMENICA",
+    "plavaQuote": "Školski točna izvedba. Čisto meso. Bez prečaca.",
+    "plavaIntro": "Plava Kamenica je glavni hrvatski gastro vodič.",
+    "plavaSub": "Među najboljim ćevapima u Hrvatskoj.",
+    "mediaTitle": "U medijima",
+    "mediaGlasIstre": "Glas Istre",
+    "mediaGlasIstreNote": "Profil",
+    "mediaRibafish": "Ribafish",
+    "mediaRibafishNote": "Profil",
+    "tripadvisor": "4.6 Tripadvisor · 34 recenzija",
+    "wolt": "Wolt",
+    "glovo": "Glovo",
+    "instagram": "@plocicacevapi"
+  },
+  "gallery": {
+    "kicker": "Galerija",
+    "title": "Roštilj. Mjesto. Ljudi.",
+    "subtitle": "Pločica · stvarni trenuci, ništa namješteno."
+  },
+  "blog": {
+    "kicker": "Iz kuhinje",
+    "title": "Iz kuhinje",
+    "subtitle": "Što se događa kod nas — Hartwig, Podroom, recept.",
+    "readMore": "Pročitaj",
+    "backToBlog": "Natrag na blog",
+    "backHome": "Natrag na početnu",
+    "minRead": "min čitanja",
+    "publishedOn": "Objavljeno"
+  },
+  "menu": {
+    "kicker": "Jelovnik",
+    "title": "Jelovnik",
+    "currency": "€",
+    "ponijetiCta": "Naruči za ponijeti",
+    "ponijetiHint": "WhatsApp · Odmah spreman",
+    "intro": "Cijeli jelovnik s roštilja. WhatsApp narudžba pripremljena je dok stigneš.",
+    "note": "Cijene su u eurima. Češki Budweiser je s nama od početka — u Podroomu i točeni. Uz njega: istarska vina (Geržinić), domaće rakije (Martesi) i puna šank ponuda."
+  },
+  "order": {
+    "kicker": "Naruči i lokacije",
+    "title": "Naruči",
+    "whatsappCta": "Naruči za ponijeti",
+    "whatsappHint": "WhatsApp · Odmah spreman",
+    "deliveryTitle": "Dostava",
+    "phoneNote": "Rezervacije i upiti:",
+    "phoneMain": "+385 95 362 7218",
+    "phoneMainNote": "Tržnica · WhatsApp i rezervacije",
+    "location1Label": "Lokacija 1 — Tržnica",
+    "location1Tagline": "Original. U srcu tržnice.",
+    "location1Address1": "Narodni trg 9",
+    "location1Address2": "Gradska tržnica, Pula",
+    "location1Hours": "Svaki dan 11:00 – 23:00",
+    "location1PhoneLabel": "Direktna narudžba",
+    "location1Phone": "+385 95 362 7218",
+    "location2Label": "Lokacija 2 — Pločica u Podroomu",
+    "location2Tagline": "Drugi roštilj u gradu. U bivšem kultnom Podroomu.",
+    "location2Address1": "Budicinova 16",
+    "location2Address2": "(ulica Pina Budicina), Pula",
+    "location2Hours": "Svaki dan 08:00 – 22:00",
+    "location2HoursNote": "Ljeti do 23:00",
+    "location2PhoneLabel": "Direktna narudžba",
+    "location2Phone": "+385 95 347 3593",
+    "showMap": "Prikaži na karti"
+  },
+  "contact": {
+    "kicker": "Kontakt",
+    "title": "Pločica",
+    "address1Heading": "Tržnica",
+    "address1Line1": "Narodni trg 9",
+    "address1Line2": "52100 Pula, Hrvatska",
+    "address2Heading": "Pločica u Podroomu",
+    "address2Line1": "Budicinova 16 (Pina Budicina)",
+    "address2Line2": "52100 Pula, Hrvatska",
+    "email": "plocica.cevapi@gmail.com",
+    "phone": "+385 95 362 7218",
+    "phoneNote": "WhatsApp i rezervacije",
+    "instagram": "@plocicacevapi",
+    "facebook": "/Pločica",
+    "instagramHandle": "plocicacevapi",
+    "map1Label": "Tržnica — Original",
+    "map2Label": "Pločica u Podroomu"
+  },
+  "stickyFooter": {
+    "whatsapp": "WhatsApp",
+    "call": "Nazovi",
+    "locations": "Lokacije"
+  },
+  "notFound": {
+    "kicker": "404",
+    "title": "Stranica nije pečena.",
+    "body": "Ova adresa ne postoji. Možda je otišla na rošti.",
+    "backHome": "Natrag na početnu",
+    "menuLink": "Pogledaj jelovnik"
+  },
+  "footer": {
+    "stamp": "PLOČICA · NARODNI TRG 9 · BUDICINOVA 16 · PULA",
+    "copyright": "© 2026 Pločica obrt",
+    "privacy": "Politika privatnosti",
+    "imprint": "Impressum"
+  },
+  "lang": {
+    "hr": "HR",
+    "en": "EN",
+    "it": "IT",
+    "switchLabel": "Promijeni jezik"
+  }
+}

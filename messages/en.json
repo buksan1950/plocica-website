@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "title": "Pločica Pula – Handmade Ćevapi at the Pula Market Hall",
+    "description": "Called top 3 street foods in the world by Michelin-starred chef Jan Hartwig. Two locations in Pula — the Market Hall on Narodni trg and Pločica u Podroomu. Order via WhatsApp: +385 95 362 7218."
+  },
+  "nav": {
+    "menu": "Menu",
+    "order": "Order",
+    "skipToContent": "Skip to content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "wordmark": "PLOČICA",
+    "tagline": "Two grills. One Pločica.",
+    "ctaMenu": "Menu",
+    "ctaOrder": "Order",
+    "stamp": "Two locations · Pula · WhatsApp orders"
+  },
+  "product": {
+    "kicker": "The product",
+    "headline": "90g",
+    "line1": "RECIPE FROM BOSNIA",
+    "line2": "ZLATIBOR KAJMAK",
+    "line3": "MACEDONIAN AJVAR",
+    "bodyA": "Ground in-house. Seasoned in-house. Fired in-house.",
+    "bodyB": "One piece. Ninety grams. No shortcuts."
+  },
+  "provenance": {
+    "kicker": "Map of the grill",
+    "title": "Where the flavour comes from",
+    "cards": [
+      {
+        "number": "01",
+        "place": "BOSNIA",
+        "body": "A recipe that travelled from Bosnia to Pula. Beef and veal, blended by rule."
+      },
+      {
+        "number": "02",
+        "place": "ZLATIBOR",
+        "body": "Highland kajmak. Nowhere else."
+      },
+      {
+        "number": "03",
+        "place": "MACEDONIA",
+        "body": "Ajvar that takes time."
+      },
+      {
+        "number": "04",
+        "place": "PULA",
+        "body": "Market hall and Podroom. Two grills. One Pločica."
+      }
+    ]
+  },
+  "place": {
+    "kicker": "The place",
+    "yearStamp": "Since 2023",
+    "quote": "Never change what made it great.",
+    "attribution": "Mersim",
+    "body": "We walked into the oldest market in Pula and lit the grill. The meat ages 65 hours, ground and seasoned in-house, fired on a hot grill. A second grill now burns in the old Podroom — a space every Pula local remembers. Two grills. One Pločica.",
+    "marketLabel": "MARKET HALL · NARODNI TRG 9 · SINCE 2023",
+    "podroomLabel": "PODROOM · BUDICINOVA 16 · NEW"
+  },
+  "validation": {
+    "kicker": "Recognition",
+    "hartwigQuote": "One of the top 3 street foods I've ever eaten.",
+    "hartwigAttribution": "Jan Hartwig",
+    "hartwigAttributionDetail": "3× Michelin Stars · Restaurant Jan, München",
+    "hartwigAttributionContext": "World's 50 Best Explores — filming in Istria",
+    "hartwigNote": "Came in by chance during the World's 50 Best Explores shoot in Istria. Came back for more.",
+    "plavaLabel": "★ PLAVA KAMENICA",
+    "plavaQuote": "Školski točna izvedba. Čisto meso. Bez prečaca.",
+    "plavaIntro": "Plava Kamenica is Croatia's leading food guide.",
+    "plavaSub": "Ranked among the best ćevapi in Croatia.",
+    "mediaTitle": "In the press",
+    "mediaGlasIstre": "Glas Istre",
+    "mediaGlasIstreNote": "Profile feature",
+    "mediaRibafish": "Ribafish",
+    "mediaRibafishNote": "Profile feature",
+    "tripadvisor": "4.6 Tripadvisor · 34 reviews",
+    "wolt": "Wolt",
+    "glovo": "Glovo",
+    "instagram": "@plocicacevapi"
+  },
+  "gallery": {
+    "kicker": "Gallery",
+    "title": "Grill. Place. People.",
+    "subtitle": "Pločica · documentary, never staged."
+  },
+  "blog": {
+    "kicker": "From the kitchen",
+    "title": "From the kitchen",
+    "subtitle": "What's happening here — Hartwig, Podroom, the recipe.",
+    "readMore": "Read",
+    "backToBlog": "Back to blog",
+    "backHome": "Back to home",
+    "minRead": "min read",
+    "publishedOn": "Published"
+  },
+  "menu": {
+    "kicker": "Menu",
+    "title": "Menu",
+    "currency": "€",
+    "ponijetiCta": "WhatsApp Order",
+    "ponijetiHint": "WhatsApp · Ready when you arrive",
+    "intro": "The full menu, off the grill. WhatsApp ahead — your order is ready when you arrive.",
+    "note": "Prices in EUR. Czech Budweiser has been with us from day one — on tap at the Podroom. Alongside: Istrian wines (Geržinić), local rakijas (Martesi), and a full bar."
+  },
+  "order": {
+    "kicker": "Order & locations",
+    "title": "Order",
+    "whatsappCta": "WhatsApp Order",
+    "whatsappHint": "WhatsApp · Ready when you arrive",
+    "deliveryTitle": "Delivery",
+    "phoneNote": "Reservations and questions:",
+    "phoneMain": "+385 95 362 7218",
+    "phoneMainNote": "Market hall · WhatsApp and reservations",
+    "location1Label": "Location 1 — Market Hall",
+    "location1Tagline": "The original. Inside the market hall.",
+    "location1Address1": "Narodni trg 9",
+    "location1Address2": "City Market Hall, Pula",
+    "location1Hours": "Every day 11:00 – 23:00",
+    "location1PhoneLabel": "Direct order line",
+    "location1Phone": "+385 95 362 7218",
+    "location2Label": "Location 2 — Pločica u Podroomu",
+    "location2Tagline": "The second grill. In the legendary Podroom.",
+    "location2Address1": "Budicinova 16",
+    "location2Address2": "(ulica Pina Budicina), Pula",
+    "location2Hours": "Every day 08:00 – 22:00",
+    "location2HoursNote": "Until 23:00 in summer",
+    "location2PhoneLabel": "Direct order line",
+    "location2Phone": "+385 95 347 3593",
+    "showMap": "Show on map"
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Pločica",
+    "address1Heading": "Market Hall",
+    "address1Line1": "Narodni trg 9",
+    "address1Line2": "52100 Pula, Croatia",
+    "address2Heading": "Pločica u Podroomu",
+    "address2Line1": "Budicinova 16 (Pina Budicina)",
+    "address2Line2": "52100 Pula, Croatia",
+    "email": "plocica.cevapi@gmail.com",
+    "phone": "+385 95 362 7218",
+    "phoneNote": "WhatsApp and reservations",
+    "instagram": "@plocicacevapi",
+    "facebook": "/Pločica",
+    "instagramHandle": "plocicacevapi",
+    "map1Label": "Market Hall — Original",
+    "map2Label": "Pločica u Podroomu"
+  },
+  "stickyFooter": {
+    "whatsapp": "WhatsApp",
+    "call": "Call",
+    "locations": "Locations"
+  },
+  "notFound": {
+    "kicker": "404",
+    "title": "This page wasn't grilled.",
+    "body": "This address doesn't exist. Maybe it went to the grill.",
+    "backHome": "Back to home",
+    "menuLink": "See the menu"
+  },
+  "footer": {
+    "stamp": "PLOČICA · NARODNI TRG 9 · BUDICINOVA 16 · PULA",
+    "copyright": "© 2026 Pločica obrt",
+    "privacy": "Privacy",
+    "imprint": "Imprint"
+  },
+  "lang": {
+    "hr": "HR",
+    "en": "EN",
+    "it": "IT",
+    "switchLabel": "Switch language"
+  }
+}

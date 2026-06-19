@@ -103,7 +103,7 @@
     "currency": "€",
     "ponijetiCta": "Ordina da asporto",
     "ponijetiHint": "WhatsApp · Pronto al tuo arrivo",
-    "intro": "Tutto il menù dalla griglia. Ordina su WhatsApp — pronto al tuo arrivo.",
+    "intro": "Ordina su WhatsApp — pronto al tuo arrivo.",
     "note": "Prezzi in euro. La Budweiser ceca è con noi dall'inizio — al Podroom anche alla spina. Insieme: vini istriani (Geržinić), rakija locali (Martesi) e un bar completo."
   },
   "order": {
@@ -126,7 +126,7 @@
     "location2Tagline": "La seconda griglia. Nel leggendario Podroom.",
     "location2Address1": "Budicinova 16",
     "location2Address2": "(via Pina Budicina), Pola",
-    "location2Hours": "Ogni giorno 08:00 – 22:00",
+    "location2Hours": "Ogni giorno 11:00 – 22:00",
     "location2HoursNote": "Fino alle 23:00 in estate",
     "location2PhoneLabel": "Linea ordini diretta",
     "location2Phone": "+385 95 347 3593",

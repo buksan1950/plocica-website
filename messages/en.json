@@ -103,7 +103,7 @@
     "currency": "€",
     "ponijetiCta": "WhatsApp Order",
     "ponijetiHint": "WhatsApp · Ready when you arrive",
-    "intro": "The full menu, off the grill. WhatsApp ahead — your order is ready when you arrive.",
+    "intro": "WhatsApp ahead — your order is ready when you arrive.",
     "note": "Prices in EUR. Czech Budweiser has been with us from day one — on tap at the Podroom. Alongside: Istrian wines (Geržinić), local rakijas (Martesi), and a full bar."
   },
   "order": {
@@ -126,7 +126,7 @@
     "location2Tagline": "The second grill. In the legendary Podroom.",
     "location2Address1": "Budicinova 16",
     "location2Address2": "(ulica Pina Budicina), Pula",
-    "location2Hours": "Every day 08:00 – 22:00",
+    "location2Hours": "Every day 11:00 – 22:00",
     "location2HoursNote": "Until 23:00 in summer",
     "location2PhoneLabel": "Direct order line",
     "location2Phone": "+385 95 347 3593",

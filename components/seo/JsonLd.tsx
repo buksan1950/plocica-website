@@ -7,7 +7,7 @@ import { LINKS } from "@/lib/links";
  *   Location 1 — Tržnica: Narodni trg 9, 52100 Pula. Daily 11:00–23:00.
  *                         Direct order +385 95 362 7218.
  *   Location 2 — Podroom: Budicinova 16 / Ulica Pina Budicina,
- *                         52100 Pula. Daily 08:00–22:00 (to 23:00 in summer).
+ *                         52100 Pula. Daily 11:00–22:00 (to 23:00 in summer).
  *                         Direct order +385 95 347 3593.
  *
  * Tripadvisor aggregateRating (2026-05-12): 4.6★ across 34 reviews on the
@@ -79,7 +79,7 @@ export function RestaurantJsonLd() {
       postalCode: "52100",
       addressCountry: "HR",
     },
-    openingHours: "Mo-Su 08:00-22:00",
+    openingHours: "Mo-Su 11:00-22:00",
     servesCuisine: ["Bosnian", "Balkan", "Croatian"],
     priceRange: "€€",
     currenciesAccepted: "EUR",

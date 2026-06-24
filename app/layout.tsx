@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { DM_Sans } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { MetaPixel } from "@/components/MetaPixel";
 import "./globals.css";
 
 /**
@@ -38,6 +39,7 @@ export default async function RootLayout({
     <html lang={locale} className={dmSans.variable}>
       <body className="bg-green-deep text-offwhite">{children}</body>
       <GoogleAnalytics gaId="G-GZ537YK79L" />
+      <MetaPixel />
     </html>
   );
 }

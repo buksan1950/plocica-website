@@ -5,6 +5,11 @@ import { useTranslations, useLocale } from "next-intl";
 import { MessageCircle, Phone, MapPin } from "lucide-react";
 import { whatsappLink, PHONE_TEL } from "@/lib/whatsapp";
 
+declare const fbq: (...args: unknown[]) => void;
+function trackContact() {
+  if (typeof fbq !== "undefined") fbq("track", "Contact");
+}
+
 /**
  * Spec v1.2 §7: fixed mobile footer bar with 3 buttons —
  * WhatsApp / Call / Locations. Hidden while hero is in view.
@@ -43,6 +48,7 @@ export function StickyMobileFooter() {
           href={whatsappLink(locale)}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={trackContact}
           className="flex flex-col items-center justify-center gap-1 py-3 hover:bg-offwhite transition-colors"
         >
           <MessageCircle className="h-5 w-5" strokeWidth={1.8} />
@@ -50,6 +56,7 @@ export function StickyMobileFooter() {
         </a>
         <a
           href={PHONE_TEL}
+          onClick={trackContact}
           className="flex flex-col items-center justify-center gap-1 py-3 border-x border-black/40 hover:bg-offwhite transition-colors"
         >
           <Phone className="h-5 w-5" strokeWidth={1.8} />

@@ -1,6 +1,14 @@
+"use client";
+
 import { useTranslations, useLocale } from "next-intl";
 import { whatsappLink, PHONE_DISPLAY, PHONE_TEL } from "@/lib/whatsapp";
 import { LINKS, mapsEmbedUrl } from "@/lib/links";
+
+declare const fbq: (...args: unknown[]) => void;
+
+function trackContact() {
+  if (typeof fbq !== "undefined") fbq("track", "Contact");
+}
 
 export function Contact() {
   const t = useTranslations("contact");
@@ -46,12 +54,14 @@ export function Contact() {
                 href={wa}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={trackContact}
                 className="block stamp text-offwhite hover:text-orange transition-colors"
               >
                 WHATSAPP · {PHONE_DISPLAY}
               </a>
               <a
                 href={PHONE_TEL}
+                onClick={trackContact}
                 className="block text-offwhite hover:text-orange transition-colors"
               >
                 {t("phone")}
@@ -61,6 +71,7 @@ export function Contact() {
               </p>
               <a
                 href={`mailto:${t("email")}`}
+                onClick={trackContact}
                 className="block text-offwhite hover:text-orange transition-colors break-all pt-2"
               >
                 {t("email")}

@@ -37,11 +37,9 @@ export default async function RootLayout({
   const locale = await resolveLocale();
   return (
     <html lang={locale} className={dmSans.variable}>
-      <head>
-        <MetaPixel />
-      </head>
       <body className="bg-green-deep text-offwhite">{children}</body>
       <GoogleAnalytics gaId="G-GZ537YK79L" />
+      <MetaPixel />
     </html>
   );
 }

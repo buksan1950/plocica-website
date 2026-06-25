@@ -127,7 +127,7 @@ const CONTENT: Record<Kind, Record<Locale, LegalDoc>> = {
         },
         {
           heading: "Kontakt",
-          body: "Telefon: +385 95 362 7218\nE-mail: plocica.cevapi@gmail.com",
+          body: "Telefon: +385 98 173 4718\nE-mail: plocica.cevapi@gmail.com",
         },
       ],
     },
@@ -162,7 +162,7 @@ const CONTENT: Record<Kind, Record<Locale, LegalDoc>> = {
         },
         {
           heading: "Contact",
-          body: "Phone: +385 95 362 7218\nEmail: plocica.cevapi@gmail.com",
+          body: "Phone: +385 98 173 4718\nEmail: plocica.cevapi@gmail.com",
         },
       ],
     },
@@ -197,7 +197,7 @@ const CONTENT: Record<Kind, Record<Locale, LegalDoc>> = {
         },
         {
           heading: "Contatti",
-          body: "Telefono: +385 95 362 7218\nEmail: plocica.cevapi@gmail.com",
+          body: "Telefono: +385 98 173 4718\nEmail: plocica.cevapi@gmail.com",
         },
       ],
     },

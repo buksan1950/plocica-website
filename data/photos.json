@@ -32,6 +32,11 @@
   },
   "gallery": [
     {
+      "src": "/images/photos/photo-20.jpeg",
+      "alt": { "hr": "Puna terasa Tržnice — gosti na ručku ispred Pločice.", "en": "Full terrace at the Tržnica — guests at lunch outside Pločica.", "it": "Terrazza piena al mercato — ospiti a pranzo fuori da Pločica." },
+      "aspect": "landscape"
+    },
+    {
       "src": "/images/photos/photo-12.jpeg",
       "alt": { "hr": "Lepinja, kajmak i ajvar — bliski plan.", "en": "Lepinja, kajmak and ajvar — close-up.", "it": "Lepinja, kajmak e ajvar — primo piano." },
       "aspect": "portrait"

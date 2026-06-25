@@ -13,8 +13,6 @@ const URL_GLAS_ISTRE_HARTWIG =
   "https://www.glasistre.hr/pula/2024/08/07/renomirani-njemacki-chef-jan-hartwig-rekao-da-su-cevapi-koje-je-probao-u-puli-jedan-od-top-tri-stre-949747";
 const URL_RIBAFISH =
   "https://ribafish.com/plocica-pula-izvrsni-cevapi-pored-trznice-po-domacoj-recepturi/";
-const URL_WOLT = "https://wolt.com/en/hrv/pula/restaurant/plocica";
-const URL_GLOVO = "https://glovoapp.com/hr/en/pula/plocica-pula/";
 const URL_INSTAGRAM = "https://instagram.com/plocicacevapi";
 const URL_HARTWIG_VIDEO = "https://www.youtube.com/watch?v=SLfxyvcnkO4";
 
@@ -166,26 +164,6 @@ export function Validation() {
               className="stamp hover:text-offwhite transition-colors"
             >
               ★★★★★ {t("tripadvisor")}
-            </a>
-            <span className="text-offwhite-muted/40">·</span>
-            <a
-              href={URL_WOLT}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="stamp hover:text-offwhite transition-colors"
-              aria-label="Wolt"
-            >
-              {t("wolt")}
-            </a>
-            <span className="text-offwhite-muted/40">·</span>
-            <a
-              href={URL_GLOVO}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="stamp hover:text-offwhite transition-colors"
-              aria-label="Glovo"
-            >
-              {t("glovo")}
             </a>
             <span className="text-offwhite-muted/40">·</span>
             <a

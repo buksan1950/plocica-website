@@ -5,7 +5,7 @@ import { LINKS } from "@/lib/links";
  *
  * Data confirmed 2026-05-12:
  *   Location 1 — Tržnica: Narodni trg 9, 52100 Pula. Daily 11:00–23:00.
- *                         Direct order +385 95 362 7218.
+ *                         Direct order +385 98 173 4718.
  *   Location 2 — Podroom: Budicinova 16 / Ulica Pina Budicina,
  *                         52100 Pula. Daily 11:00–22:00 (to 23:00 in summer).
  *                         Direct order +385 95 347 3593.
@@ -31,7 +31,7 @@ export function RestaurantJsonLd() {
     name: "Pločica — Gradska Tržnica",
     image: "https://plocicacevapi.hr/og-image.png",
     url: "https://plocicacevapi.hr",
-    telephone: "+385953627218",
+    telephone: "+385981734718",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Narodni trg 9",

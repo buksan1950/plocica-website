@@ -1,12 +1,9 @@
-import { useTranslations, useLocale } from "next-intl";
-import { Phone, MapPin, Clock, MessageCircle } from "lucide-react";
-import { whatsappLink } from "@/lib/whatsapp";
+import { useTranslations } from "next-intl";
+import { Phone, MapPin, Clock } from "lucide-react";
 import { LINKS, mapsUrl } from "@/lib/links";
 
 export function Order() {
   const t = useTranslations("order");
-  const locale = useLocale();
-  const waHref = whatsappLink(locale);
 
   return (
     <section
@@ -23,52 +20,7 @@ export function Order() {
           {t("title")}
         </h2>
 
-        <div className="grid gap-10 md:grid-cols-3 md:gap-8">
-          {/* Column 1 — WhatsApp primary + delivery + main phone */}
-          <div>
-            <a
-              href={waHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block bg-orange text-black p-6 hover:bg-offwhite transition-colors"
-            >
-              <div className="flex items-center gap-3">
-                <MessageCircle className="h-7 w-7" strokeWidth={1.8} />
-                <span
-                  className="font-display leading-tight"
-                  style={{ fontSize: "clamp(1.4rem, 2.4vw, 1.9rem)" }}
-                >
-                  {t("whatsappCta")}
-                </span>
-              </div>
-              <p className="mt-2 stamp text-black/70">{t("whatsappHint")}</p>
-            </a>
-
-            <h3 className="mt-8 stamp text-offwhite-muted mb-3">
-              {t("deliveryTitle")}
-            </h3>
-            <div className="flex flex-col gap-3">
-              <a
-                href={LINKS.wolt}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-between px-4 py-3 border border-black/40 hover:border-orange hover:text-orange transition-colors stamp text-offwhite"
-              >
-                <span>WOLT</span>
-                <span aria-hidden>→</span>
-              </a>
-              <a
-                href={LINKS.glovo}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-between px-4 py-3 border border-black/40 hover:border-orange hover:text-orange transition-colors stamp text-offwhite"
-              >
-                <span>GLOVO</span>
-                <span aria-hidden>→</span>
-              </a>
-            </div>
-          </div>
-
+        <div className="grid gap-10 md:grid-cols-2 md:gap-8">
           <LocationCard
             label={t("location1Label")}
             tagline={t("location1Tagline")}

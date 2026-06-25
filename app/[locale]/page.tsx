@@ -7,7 +7,9 @@ import { routing } from "@/i18n/routing";
 import { Nav } from "@/components/ui/Nav";
 import { Footer } from "@/components/ui/Footer";
 import { StickyMobileFooter } from "@/components/ui/StickyMobileFooter";
+import { StickyWhatsApp } from "@/components/ui/StickyWhatsApp";
 import { Hero } from "@/components/sections/Hero";
+import { PressBar } from "@/components/sections/PressBar";
 import { TheProduct } from "@/components/sections/TheProduct";
 import { Provenance } from "@/components/sections/Provenance";
 import { ThePlace } from "@/components/sections/ThePlace";
@@ -50,6 +52,7 @@ export default async function HomePage({
 
       <main id="main">
         <Hero />
+        <PressBar />
         <TheProduct />
         <Provenance />
         <ThePlace />
@@ -63,6 +66,7 @@ export default async function HomePage({
 
       <Footer />
       <StickyMobileFooter />
+      <StickyWhatsApp />
     </>
   );
 }
